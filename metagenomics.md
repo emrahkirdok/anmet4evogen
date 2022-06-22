@@ -30,3 +30,18 @@ mkdir results
 
 ```
 
+Bu kısımda kullancağımız dosyalar bu klasörde:
+
+```
+/truba/home/egitim/Emrah/HandsOn_Metaphlan3
+```
+
+Şimdi de, kullanacağımız slurm dosyasını kopyalayalım ve içine bakalım:
+
+
+```
+cp /truba/home/egitim/Emrah/HandsOn_Metaphlan3/metaphlan2.sh .
+
+cat metaphlan2.sh
+```
+
