@@ -75,7 +75,7 @@ cat kraken2.sh
 
 
 ```
-awk -F"\t" '$2 > 100 && $4 == "S" ' results/Eeport.txt > results/species.txt
+awk -F"\t" '$2 > 100 && $4 == "S" ' results/Report.txt > results/species.txt
 ```
 
 Sadece Streptococcus pneumoniae ile eşleşmiş DNA dizilerinin isimlerini alalım:
