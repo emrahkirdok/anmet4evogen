@@ -15,3 +15,37 @@ kraken2 -h
 
 ```
 
+Bu kapsamda kullanacağımız her şey bu dosya içerisinde:
+
+```
+/truba/home/egitim/Emrah/HandsOn_Kraken2
+```
+
+Öncelikle projemizi oluşturalım:
+
+```
+mkdir Ancient_metagenomics
+cd Ancient_metagenomics
+```
+
+Şimdi de klasörleri:
+
+```
+mkdir data
+mkdir results
+```
+
+Kullancağımız dosyaları aşağıdaki metin dosyasından indreceğiz:
+
+```
+
+cp /truba/home/egitim/Emrah/HandsOn_Kraken2/data/links_jensen.txt data/
+```
+
+Bu dosya içinde ne var?
+
+```
+
+cat data/links_jensen.txt:
+```
+
