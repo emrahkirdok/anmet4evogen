@@ -1,5 +1,7 @@
 # Metagenomik Uygulama
 
+Önce araçları nasıl kullanacağımıza bakalım. İlk olarak `metaphlan3` aracını kullancağız.
+
 İlk olarak aşağıdaki satırları yazarak kullanacağımız araçların yolunu belirleyelim:
 
 ```
@@ -12,3 +14,11 @@ Metaphlan3 programının kullanım kılavuzunu görüntüleyelim:
 ```
 metaphlan -h
 ```
+
+Bir biyoinformatik proje dosyası oluşturalım. Kendi projenizin ismini belirleyin. Ben `Metagenomik` ismini kullancağım:
+
+```
+mkdir Metagenomik
+cd Metagenomik
+```
+
