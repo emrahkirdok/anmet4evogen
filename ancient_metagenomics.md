@@ -82,5 +82,5 @@ Sadece Streptococcus pneumoniae ile eşleşmiş DNA dizilerinin isimlerini alal�
 
 
 ```
-grep "Streptococcus pneumoniae" results/species.txt | cut -f 2 > results/streptococcus_pneumoniae_ids.txt
+grep "Streptococcus pneumoniae" results/Sequences.txt | cut -f 2 > results/streptococcus_pneumoniae_ids.txt
 ```
