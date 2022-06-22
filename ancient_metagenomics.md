@@ -56,3 +56,17 @@ cat data/links_jensen.txt:
 cd data
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR325/004/ERR3250144/ERR3250144.fastq.gz
 ```
+
+Bir üst klasöre çıkalım:
+
+```
+cd ..
+```
+
+Şimdi slurm dosyasını kopyalayalım:
+
+```
+
+cp /truba/home/egitim/Emrah/HandsOn_Kraken2/kraken2.sh .
+cat kraken2.sh
+```
