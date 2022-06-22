@@ -85,5 +85,10 @@ Sadece Streptococcus pneumoniae ile eşleşmiş DNA dizilerinin isimlerini alal�
 grep "Streptococcus pneumoniae" results/Sequences.txt | cut -f 2 > results/streptococcus_pneumoniae_ids.txt
 ```
 
+Peki, S. pneumonia okumalarını nasıl alabiliriz?
 
+```
+seqtk subseq data/ERR3250144.fastq.gz results/streptococcus_pneumoniae_ids.txt > results/streptococcus_pneumoniae.fastq
+
+``
 
