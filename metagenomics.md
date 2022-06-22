@@ -49,4 +49,6 @@ cat metaphlan2.sh
 
 ```
 cp /truba/home/egitim/Emrah/HandsOn_Metaphlan3/data/*.gz data/
+
+ls data/
 ```
