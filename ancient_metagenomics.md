@@ -49,3 +49,10 @@ Bu dosya içinde ne var?
 cat data/links_jensen.txt:
 ```
 
+Şimdi ilk dosyayı indirelim:
+
+
+```
+cd data
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR325/004/ERR3250144/ERR3250144.fastq.gz
+```
