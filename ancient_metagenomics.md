@@ -70,3 +70,17 @@ cd ..
 cp /truba/home/egitim/Emrah/HandsOn_Kraken2/kraken2.sh .
 cat kraken2.sh
 ```
+
+Şimdi sadece tür profillerini elde edelim:
+
+
+```
+awk -F"\t" '$2 > 100 && $4 == "S" ' results/Eeport.txt > results/species.txt
+```
+
+Sadece Streptococcus pneumoniae ile eşleşmiş DNA dizilerinin isimlerini alalım:
+
+
+```
+grep "Streptococcus pneumoniae" results/species.txt | cut -f 2 > results/streptococcus_pneumoniae_ids.txt
+```
