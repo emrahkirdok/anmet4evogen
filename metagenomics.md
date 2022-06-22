@@ -61,3 +61,15 @@ ls data/
 sbatch metaphlan2.sh
 ```
 
+Şimdi farklı profilleri birleştirelim
+
+```
+merge_metaphlan_tables.py results/*profile.txt > merged_abundance_table.txt
+```
+
+Acaba oldu mu?
+
+```
+
+less -S merged_abundance_table.txt
+```
