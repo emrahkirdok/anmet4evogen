@@ -45,3 +45,8 @@ cp /truba/home/egitim/Emrah/HandsOn_Metaphlan3/metaphlan2.sh .
 cat metaphlan2.sh
 ```
 
+Şimdi de kullancağımız dosyaları kopyalayalım:
+
+```
+cp /truba/home/egitim/Emrah/HandsOn_Metaphlan3/data/*.gz data
+```
