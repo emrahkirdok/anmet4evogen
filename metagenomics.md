@@ -22,3 +22,11 @@ mkdir Metagenomik
 cd Metagenomik
 ```
 
+Şimdi de bu klasör içinde verilerimizi depolayacağımız ve sonuçları depolayacağımız klasörleri oluşturalım:
+
+```
+mkdir data
+mkdir results
+
+```
+
