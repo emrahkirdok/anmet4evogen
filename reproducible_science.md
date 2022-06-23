@@ -18,7 +18,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
 Yeni bir çalışma çevresi oluşturalım:
 
 ```
-conda create -n myenv hizalama
+conda create -n hizalama
 
 conda install -c bioconda snakemake bwa samtools bcftools
 ```
