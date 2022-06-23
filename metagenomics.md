@@ -1,17 +1,17 @@
-# Metagenomik Uygulama
+# Metagenomik uygulaması
 
-Önce araçları nasıl kullanacağımıza bakalım. İlk olarak `metaphlan3` aracını kullancağız.
+Bu deneme kapsamında `metaphlan3` aracı kapsamında insan mikrobiyota örneklerini inceleyeceğiz. Önce araçları nasıl kullanacağımıza bakalım. İlk olarak `metaphlan3` aracını kullancağız.
 
-İlk olarak aşağıdaki satırları yazarak kullanacağımız araçların yolunu belirleyelim:
+Aşağıdaki satırları yazarak kullanacağımız araçların yolunu belirleyelim:
 
-```
+```bash
 source ~/../egitim/.bashrc
 shopt -sq expand_aliases
 ```
 
-Metaphlan3 programının kullanım kılavuzunu görüntüleyelim:
+`Metaphlan3` programının kullanım kılavuzunu görüntüleyelim:
 
-```
+```bash
 metaphlan -h
 ```
 
