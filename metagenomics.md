@@ -73,6 +73,12 @@ ls data/
 sbatch metaphlan2.sh
 ```
 
+Diğer dosyaları da tek tek profilleyelim:
+
+```
+cp /truba/home/egitim/Emrah/HandsOn_Metaphlan3/metaphlan_all.sh .
+```
+
 Şimdi farklı profilleri birleştirelim
 
 ```
