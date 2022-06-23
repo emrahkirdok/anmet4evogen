@@ -18,7 +18,7 @@ metaphlan -h
 Veri tabanına bakalım:
 
 ```
-ls /truba/home/egitim/Emrah/Databases/mpa_v30_CHOCOPhlan_201901/
+ls /truba/home/egitim/Emrah/Databases/mpa_v30_CHOCOPhlAn_201901/
 ```
 
 Bir biyoinformatik proje dosyası oluşturalım. Kendi projenizin ismini belirleyin. Ben `Metagenomik` ismini kullancağım:
