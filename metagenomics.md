@@ -101,6 +101,5 @@ grep -E "s__|clade" merged_abundance_table.txt | sed 's/^.*s__//g'\ | cut -f1,3-
 Heatmap oluşturma:
 
 ```
-  grep -E "s__|clade" merged_abundance_table.txt | sed 's/^.*s__//g'\
-| cut -f1,3-8 | sed -e 's/clade_name/body_site/g' > merged_abundance_table_species.txt
-``
+ hclust2.py -i merged_abundance_table_species.txt -o abundance_heatmap_species.png --f_dist_f braycurtis --s_dist_f braycurtis --cell_aspect_ratio 0.5 -l --flabel_size 10 --slabel_size 10 --max_flabel_len 100 --max_slabel_len 100 --minv 0.1 --dpi 300
+```
