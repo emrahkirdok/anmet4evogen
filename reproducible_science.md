@@ -20,5 +20,7 @@ Yeni bir çalışma çevresi oluşturalım:
 ```
 conda create -n hizalama
 
+conda activate hizalama
+
 conda install -c bioconda snakemake bwa samtools bcftools
 ```
