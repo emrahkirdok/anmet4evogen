@@ -88,7 +88,7 @@ grep "Streptococcus pneumoniae" results/Sequences.txt | cut -f 2 > results/strep
 Peki, S. pneumonia okumalarını nasıl alabiliriz?
 
 ```
-seqtk subseq data/ERR3250144.fastq.gz results/streptococcus_pneumoniae_ids.txt > results/streptococcus_pneumoniae.fastq
+seqtk subseq results/Classified_sequences.fastq results/streptococcus_pneumoniae_ids.txt > results/streptococcus_pneumoniae.fastq
 
 ``
 
