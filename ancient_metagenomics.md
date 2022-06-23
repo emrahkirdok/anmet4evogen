@@ -39,7 +39,7 @@ Kullancağımız dosyaları aşağıdaki metin dosyasından indreceğiz:
 
 ```
 
-cp /truba/home/egitim/Emrah/HandsOn_Kraken2/data/links_jensen.txt data/
+cp /truba/home/egitim/Emrah/HandsOn_Kraken2/data/* data/
 ```
 
 Bu dosya içinde ne var?
