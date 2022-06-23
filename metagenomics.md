@@ -21,6 +21,12 @@ Veri tabanına bakalım:
 ls /truba/home/egitim/Emrah/Databases/mpa_v30_CHOCOPhlAn_201901/
 ```
 
+Fasta dosyasına bakalım:
+
+```
+less /truba/home/egitim/Emrah/Databases/mpa_v30_CHOCOPhlAn_201901/mpa_v30_CHOCOPhlAn_201901.fna
+```
+
 Bir biyoinformatik proje dosyası oluşturalım. Kendi projenizin ismini belirleyin. Ben `Metagenomik` ismini kullancağım:
 
 ```
