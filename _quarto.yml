@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "Evrimsel Genombilim için Antik Metagenomik"
+  author: "Emrah Kırdök, PhD"
+  date: "7/9/2023"
+  chapters:
+    - index.qmd
+    - metagenomics.qmd
+    - project-1.qmd
+    - project-2.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

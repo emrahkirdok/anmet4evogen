@@ -1,0 +1,3 @@
+# Preface {.unnumbered}
+
+Bu ders Evrimsel Genombilim uygulamalı eğitimi kapsamında verilen metagenomik ve antik metagenomik derslerini içermektedir. 
