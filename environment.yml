@@ -6,7 +6,7 @@ channels:
     - defaults
 
 dependencies:
-    - metaphlan2
+    - metaphlan
     - kraken2
     - fastqc
     - cutadapt
