@@ -1,11 +1,4 @@
----
-title: "Aşamalı Azalış - 1"
-author: "Emrah Kırdök, Ph.D."
-date: "2023-06-23"
-categories: [türkçe, akademi, makina öğrenmesi]
-lang: tr
-draft: true
----
+# Giriş
 
 Acaba chatgpt nasıl çalışıyor? Ya da bir araba kendini nasıl sürüyor? Merak ediyor musununz?
 
