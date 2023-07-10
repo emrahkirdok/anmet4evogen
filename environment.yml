@@ -1,0 +1,21 @@
+name: anmet4evogen
+
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+
+dependencies:
+    - metaphlan2
+    - kraken2
+    - fastqc
+    - cutadapt
+    - seqtk
+    - mapdamage2
+    - bwa
+    - samtools
+    - bowtie2
+    - pmdtools
+    - krakenuniq
+    - r-base
+    - r-tidyverse
