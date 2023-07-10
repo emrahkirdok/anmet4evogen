@@ -95,9 +95,9 @@ abs(0 - (-2.124225))
 Bu değer artık (residual) olarak isimlendirilir, ve o noktadaki hata oranımızı temsil eder. Gelin bunu bütün değerler için tekrar ederlim. Önce,  $\beta_{0} = 0$ ve $\beta_{1} = 0$ parameterinei göre oluşturduğumuz doğrusal modelde, $x$ girdilerini kullanarak, $y$ tahmini yapalım ve model üzerinde hataları görselleştirelim:
 
 ```{r}
-df$y.pred <- 9 + df$x * 0
+df$y.pred <- 0 + df$x * 0
 
-ggplot(data = df, aes(y=y,x=x)) + geom_point() + geom_segment(aes(xend = x, yend = y.pred)) + geom_abline(intercept = 9, slope = 0, color = "red") 
+ggplot(data = df, aes(y=y,x=x)) + geom_point() + geom_segment(aes(xend = x, yend = y.pred)) + geom_abline(intercept = 0, slope = 0, color = "red") 
 ```
 
 Burada neye dikkat etmeliyiz? Gerçek $y$ değerleri ile tahmin edilen $y$ değerleri arasında çok fark var. Bu aslında bizim modelimizin hatasını göstermekte. Bizim amacımız, işte bu hata oranını minimize eden Beta0 ve beta1 parametlerini tahmin etmek.
@@ -107,11 +107,11 @@ Burada neye dikkat etmeliyiz? Gerçek $y$ değerleri ile tahmin edilen $y$ değe
 ```{r}
 cost_history <- double()
 theta_history <- list()
-theta <- matrix(c(9,0), nrow=2)
+theta <- matrix(c(0,0), nrow=2)
 
 # add a column of 1's for the intercept coefficient
 X <- cbind(1, matrix(x))
-alpha <- 0.1
+alpha <- 0.01
 
 ```
 
